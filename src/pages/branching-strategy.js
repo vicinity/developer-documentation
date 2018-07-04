@@ -39,7 +39,7 @@ const BranchingStrategyPage = () => (
         All new features and bug fixes are based off master in to feature
         branches
       </li>
-      <li>You merge you features in to master through pull requests</li>
+      <li>You merge your features in to master through pull requests</li>
     </ul>
     <a id="master" />
     <h2>Maintaining master</h2>
