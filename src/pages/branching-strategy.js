@@ -210,8 +210,12 @@ const BranchingStrategyPage = () => (
     <a id="further-reading" />
     <h2>Further reading</h2>
     <ul>
-      <li>[Connventional Commits](https://conventionalcommits.org/)</li>
-      <li>[GitHub Flow](https://guides.github.com/introduction/flow/)</li>
+      <li>
+        <a href="https://conventionalcommits.org/">Connventional Commits</a>
+      </li>
+      <li>
+        <a href="https://guides.github.com/introduction/flow/">GitHub Flow</a>
+      </li>
     </ul>
     ￼
   </div>
