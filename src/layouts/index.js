@@ -8,6 +8,7 @@ import {
   AccordionItemBody,
 } from 'react-accessible-accordion'
 import Header from '../components/header'
+import { HashLink as Link } from 'react-router-hash-link'
 import './accordion.css'
 import './index.css'
 import Styles from './index.module.css'
@@ -28,17 +29,30 @@ const Layout = ({ children, data }) => (
           <AccordionItem>
             <AccordionItemTitle>Branching strategy</AccordionItemTitle>
             <AccordionItemBody>
-              <a href="/branching-strategy#intro">Introduction</a>
-              <a href="/branching-strategy#simplicity">Simplicity</a>
-              <a href="/branching-strategy#master">Maintaining master</a>
-              <a href="/branching-strategy#feature-branches">
+              <Link smooth to="/branching-strategy#intro">
+                Introduction
+              </Link>
+              <Link smooth to="/branching-strategy#simplicity">
+                Simplicity
+              </Link>
+              <Link smooth to="/branching-strategy#master">
+                Maintaining master
+              </Link>
+              <Link smooth to="/branching-strategy#feature-branches">
                 Feature branches
-              </a>
-              <a href="/branching-strategy#pull-requests">Pull requests</a>
-              <a href="/branching-strategy#clean-histories">
+              </Link>
+              <Link smooth to="/branching-strategy#pull-requests">
+                Pull requests
+              </Link>
+              <Link smooth to="/branching-strategy#clean-histories">
                 Clean commit histories
-              </a>
-              <a href="/branching-strategy#environments">Environments</a>
+              </Link>
+              <Link smooth to="/branching-strategy#environments">
+                Environments
+              </Link>
+              <Link smooth to="/branching-strategy#further-reading">
+                Further reading
+              </Link>
             </AccordionItemBody>
           </AccordionItem>
         </Accordion>

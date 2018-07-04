@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const BranchingStrategyPage = () => (
   <div>
-    <a name="intro" />
+    <a id="intro" />
     <p>
       As teams get larger and more integrated, different ideas can often become
       a point of friction as they may lead to systems that are not technically
@@ -20,7 +20,7 @@ const BranchingStrategyPage = () => (
       The goal of this document is to answer the question, what is our branching
       strategy?
     </p>
-    <a name="simplicity" />
+    <a id="simplicity" />
     <h2>Striving for simplicity</h2>
     <p>
       At all times, we want simplicity. So simple, that how we branch and
@@ -41,7 +41,7 @@ const BranchingStrategyPage = () => (
       </li>
       <li>You merge you features in to master through pull requests</li>
     </ul>
-    <a name="master" />
+    <a id="master" />
     <h2>Maintaining master</h2>
     <p>
       Your master branch is your most important store of source code. It should
@@ -82,35 +82,45 @@ const BranchingStrategyPage = () => (
     <p>Here are some well known defaults that we use …</p>
     <ul>
       <li>
-        <code>bugfix/issueId-name-of-change</code>
+        <code>feat/issueId-name-of-change</code>
       </li>
       <li>
-        <code>features/issueId-name-of-change</code>
+        <code>fix/issueId-name-of-change</code>
       </li>
       <li>
-        <code>devops/issueId-name-of-change</code>
+        <code>docs/issueId-name-of-change</code>
+      </li>
+      <li>
+        <code>ops/issueId-name-of-change</code>
+      </li>
+      <li>
+        <code>chore/issueId-name-of-change</code>
       </li>
     </ul>
+    <p>
+      If you are using tools like [conventional
+      commits](https://conventionalcommits.org/), it would pay dividends to name
+      things consistently with the tooling that your project has selected.
+    </p>
     <h3>
-      <code>feature/issue-762</code> vs{' '}
-      <code>feature/issue-762-update-button-label</code> vs{' '}
-      <code>feature/update-button-label</code>
+      feat/issue-762 vs feat/issue-762-update-button-label vs{' '}
+      feat/update-button-label
     </h3>
     <p>
       One thing to strive for is naming branches to easily understand what
-      change that brach contains. A name like `feature/issue-762` is very unique
+      change that brach contains. A name like `feat/issue-762` is very unique
       and will allow you to look up what that branch is intended for. However,
       people can loose track of what issue number is allocated to a particular
       change request and they will have to refer back to the source issue.{' '}
     </p>
     <p>
-      Naming conventions like `feature/update-button-label` help reduce this by
+      Naming conventions like `feat/update-button-label` help reduce this by
       including the name of the issue in the branch so that the intent of the
       change is shown. But it loses the link back to the issue management
       system.
     </p>
     <p>
-      A naming convention like `feature/issue-762-update-button-label` is a good
+      A naming convention like `feat/issue-762-update-button-label` is a good
       compromise. It lets you link back to the issue management system and also
       provides a description of the intended change.{' '}
     </p>
@@ -118,11 +128,11 @@ const BranchingStrategyPage = () => (
       Just remember, it is not a requirement to have one branch to address all
       the requested changes of an issue, it can be broken down in to smaller
       changes in multiple branches. For example
-      `feature/issue-762-update-button-label` and
-      `feature/issue-762-change-button-confirm-message`. This may lead to higher
+      `feat/issue-762-update-button-label` and
+      `feat/issue-762-change-button-confirm-message`. This may lead to higher
       quality reviews.
     </p>
-    <a name="pull-requests" />
+    <a id="pull-requests" />
     <h2>Pull Requests</h2>
     <p>
       When you are ready to have your feature merged back in to master, you will
@@ -158,7 +168,7 @@ const BranchingStrategyPage = () => (
       leverage the combined experience of the team. Likewise, templates for
       creating issues can also be added.
     </p>
-    <a name="clean-histories" />
+    <a id="clean-histories" />
     <h2>Maintaining clean commit histories</h2>
     <p>
       To assist in identifying changes to our codebase, we strive to maintain
@@ -168,7 +178,7 @@ const BranchingStrategyPage = () => (
       To help in this ends, we prefer to rebase over merge and to squash and
       merge where possible.
     </p>
-    <a name="environments" />
+    <a id="environments" />
     <h2>Environments</h2>
     <h4>Production</h4>
     <p>
@@ -197,6 +207,12 @@ const BranchingStrategyPage = () => (
       versus the reward for dynamic QA environments.
     </p>
     <img src="/static/branching-strategy/branch-1.svg" />
+    <a id="further-reading" />
+    <h2>Further reading</h2>
+    <ul>
+      <li>[Connventional Commits](https://conventionalcommits.org/)</li>
+      <li>[GitHub Flow](https://guides.github.com/introduction/flow/)</li>
+    </ul>
     ￼
   </div>
 )
