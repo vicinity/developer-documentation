@@ -149,6 +149,7 @@ const BranchingStrategyPage = () => (
       <li>Squash and merge</li>
       <li>Add reviewers to your PR</li>
     </ul>
+    <h3>Labels</h3>
     <p>
       It is a good practice to use labels to inform the reviewer of the status
       of a PR. For example, you may want to make a PR to start the build and
@@ -158,15 +159,40 @@ const BranchingStrategyPage = () => (
       people of where this PR is at. It is also possible to bootstrap a project
       with a set of well known labels to help get things up and running.
     </p>
+    <h3>Request Templates</h3>
     <p>
-      We also recommend adding templates for pull requests to help prompt people
-      to help achieve higher quality reviews. Prompting for screen shots or
-      links to the source issue may help the reviewer understand your change.
+      We recommend adding templates for pull requests to help prompt people to
+      help achieve higher quality reviews. Prompting for screen shots or links
+      to the source issue may help the reviewer understand your change.
       Reviewers aren’t there to criticise someone’s work. They are there to help
       provide guidance to increase the quality of a change. No one person can
       know everything and leveraging good quality pull requests will help
       leverage the combined experience of the team. Likewise, templates for
       creating issues can also be added.
+    </p>
+    <h3>Multiple reviewers</h3>
+    <p>
+      We recommend that getting your Pull Request be approved by more than a
+      single person. Apart from getting multiple ideas on how to improve your
+      code, Pull Requests are a great way to seed the knowledge of how the
+      system works around the team by ensuring that many people are familiar
+      with how parts of the system has changed over time.
+    </p>
+    <h3>Tests</h3>
+    <p>
+      Ensuring that all tests and automated build steps pass is the first step
+      to ensuring that code quality is maintained. As a reviewer, it is our
+      responsibility to make sure that this quality is maintained by ensuring
+      that new pull requests have adequate coverage for the changes proposed. A
+      PR without tests should be declined until adequate tests are available and
+      offer to assist if required.
+    </p>
+    <h3>Reviews are important</h3>
+    <p>
+      It is good practice to establish a routine way to get PRs reviewed in a
+      timely manner. This could be by notifying a slack channel or making sure
+      the daily routine has time to conduct reviews and get them delivered.
+      Whatever method you choose, make sure reviews get the love they deserve.
     </p>
     <a id="clean-histories" />
     <h2>Maintaining clean commit histories</h2>
