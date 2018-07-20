@@ -27,6 +27,38 @@ const Layout = ({ children, data }) => (
       <div className="nav">
         <Accordion>
           <AccordionItem>
+            <AccordionItemTitle>Agency Onboarding</AccordionItemTitle>
+            <AccordionItemBody>
+            <Link smooth to="/agency-onboarding#intro">
+                Introduction
+              </Link>
+              <Link smooth to="/agency-onboarding#comms">
+                Shared Communications
+              </Link>
+              <Link smooth to="/agency-onboarding#project">
+                Project Management
+              </Link>
+              <Link smooth to="/agency-onboarding#github">
+                GitHub
+              </Link>
+              <Link smooth to="/agency-onboarding#npmjs">
+                npmjs
+              </Link>
+              <Link smooth to="/agency-onboarding#aws">
+                AWS
+              </Link>
+              <Link smooth to="/agency-onboarding#build">
+                Build Systems
+              </Link>
+              <Link smooth to="/agency-onboarding#third-party">
+                Third Party Systems
+              </Link>
+              <Link smooth to="/agency-onboarding#office">
+                Office Work
+              </Link>
+            </AccordionItemBody>
+          </AccordionItem>
+          <AccordionItem>
             <AccordionItemTitle>Branching strategy</AccordionItemTitle>
             <AccordionItemBody>
               <Link smooth to="/branching-strategy#intro">
