@@ -118,11 +118,12 @@ This section lists down steps involved when we work together with Digital agenci
   <summary>Technical Plan (Draft)</summary>
 <br />
 Before any technical tasks are undertaken, we all discuss technical details of the project and draft out a rough technical plan. This technical plan usually consist of following details,
-- Tech stack
-- Github Repo's, CI/CD
-- 3rd party services (loggly, trackjs, segment.io etc)
-- Data/API requirements
-- High level architecture details
+
+  - Tech stack
+  - Github Repo's, CI/CD
+  - 3rd party services (loggly, trackjs, segment.io etc)
+  - Data/API requirements
+  - High level architecture details
 <br />
 <br />
 
@@ -132,13 +133,14 @@ Before any technical tasks are undertaken, we all discuss technical details of t
   <summary>Project Setup/Kick-off</summary>
 <br />
 Depending on technical plan, Digital agency and Vicinity Digital team would undertake tasks for project setup. Some of the things that Digital Team will help setup are,
-- AWS account(s)
-- Github Repo(s) / Teams
-- Buildkite agent(s) etc
-- Slack channel(s)
-- Jira board
-- Emails, subdomains
-- any other accounts needed to get started
+
+  - AWS account(s)
+  - Github Repo(s) / Teams
+  - Buildkite agent(s) etc
+  - Slack channel(s)
+  - Jira board
+  - Emails, subdomains
+  - any other accounts needed to get started
 
 <br />
 <br />
@@ -149,14 +151,16 @@ Depending on technical plan, Digital agency and Vicinity Digital team would unde
   <summary>Day to Day Work</summary>
 <br />  
 This varies from project to project but in most cases, members of Vicinity Team will be involved in following,
-- Daily standups
-- System design, architecture and technical dicussions/concerns
-- Digital Team would actively helpout with DevOpsy stuff (automation, terraform etc)
-- User acceptance testing
+
+  - Daily standups
+  - System design, architecture and technical dicussions/concerns
+  - Digital Team would actively helpout with DevOpsy stuff (automation, terraform etc)
+  - User acceptance testing
 
 On day to day, we also expect all members to,
-- Actively document and Update high level design diagrams as and when needed
-- Capture technical debt details and prioritise them
+
+  - Actively document and Update high level design diagrams as and when needed
+  - Capture technical debt details and prioritise them
 
 <br />
 </details>
@@ -174,9 +178,10 @@ As we near completion of version 1 of the project, we will start looping in the 
   <summary>Productionizing</summary>
 <br /> 
 As we near completion, we would draft a plan together for production release. This plan may include,
-- Preparation of infra (using automation scripts + some manual work)
-- Sending out communication to stakeholders involved
-- Agreeing on SLA and Support team
+ 
+  - Preparation of infra (using automation scripts + some manual work)
+  - Sending out communication to stakeholders involved
+  - Agreeing on SLA and Support team
 
 <br />
 </details>
@@ -257,10 +262,10 @@ You are welcomed to work with DevOps from Digital team to create these pipelines
 <br />
 Chances are that we may have systems that your project will require. We subscribe to a number of services that you can use for your project.
 
-PagerDuty (incident management)
-Loggly (logging)
-Pingdom (monitoring)
-TrackJS
+  - PagerDuty (incident management)
+  - Loggly (logging)
+  - Pingdom (monitoring)
+  - TrackJS
 
 There are many services and we may have what you need. If not, we will create an account on the given service and establish a way so that you have access to the tool that you need.
 
