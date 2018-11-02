@@ -71,6 +71,12 @@ https://www.npmjs.com/package/@vicinity/vcx-tsconfig
 #### React.js
 We recommend using [create-react-app](https://github.com/facebook/create-react-app) and [react-script-ts](https://www.npmjs.com/package/react-scripts-ts)
 
+#### Jest + Enzyme
+We recommend using jest for all unit testing and enzyme for UI testing. We prefer to have snapshots of UI tests where applicable. You should be adding meaningful tests to the project.
+
+#### Nightwatch or Cypress or similar
+We recommend you add meaningful smoke tests for critical application path.
+
 #### TypeStyle or CssModules (PostCSS, CssNext)
 We are big fan of local css :)
 
@@ -124,6 +130,7 @@ Before any technical tasks are undertaken, we all discuss technical details of t
   - 3rd party services (loggly, trackjs, segment.io etc)
   - Data/API requirements
   - High level architecture details
+  - Supported devices/platforms/browsers
 <br />
 <br />
 
@@ -179,6 +186,7 @@ As we near completion of version 1 of the project, we will start looping in the 
 <br /> 
 As we near completion, we would draft a plan together for production release. This plan may include,
  
+  - Add smoke tests, setup monitoring tools etc
   - Preparation of infra (using automation scripts + some manual work)
   - Sending out communication to stakeholders involved
   - Agreeing on SLA and Support team
