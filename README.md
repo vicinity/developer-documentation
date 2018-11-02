@@ -84,9 +84,7 @@ Deploying APIs to AWS Lambda is easy with this proven framework, it just works
 
 
 <details>
-  <summary>Tools/Services</summary>
-
-## Tools
+  <summary>Tools and Services</summary>
 
 #### Buildkite
 Managed build service of choice
