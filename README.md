@@ -1,6 +1,6 @@
 # Developer Documentation
 
-## Recommended Technology Stack
+## Tech Recommendations
 
 ### Techniques
 
