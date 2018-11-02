@@ -2,7 +2,8 @@
 
 ## Tech Recommendations
 
-### Techniques
+<details>
+  <summary>Techniques</summary>
 
 #### Infrastructure as code
 Setting up a new environment or changing an infrastructure should be scripted and executed automatically by a build pipeline.
@@ -29,7 +30,6 @@ Use rebase over merge to keep git history clean.
 We are big on keeping code consistent across different projects and repo's. We maintain eslint and tslint configs on npm.
 https://www.npmjs.com/package/@vicinity/eslint-config-vcx
 
-
 #### UI Component Library
 Shared UI components help us build consistent UI faster across various digital assets.
 
@@ -37,20 +37,22 @@ NOTE: At the moment we only support vicinity theme. So for centre specific proje
 
 #### Pull requests for code reviews
 Useful to pick any issues, learn more, and share the knowledge using the power of GitHub
+</details>
 
 
-### Platforms
-
+<details>
+  <summary>Platforms</summary>
 
 #### AWS
 AWS is our cloud platform of choice. Of course we should keep an eye on other platforms so the solutions we build should have business logiс decoupled from the infrastructure whenever possible.
 
 #### Auth0
 Managed Identity Provider service
+</details>
 
 
-### Languages and Frameworks
-
+<details>
+  <summary>Languages and Frameworks</summary>
 
 #### NodeJS
 It's cool and fast enough plus works really well for serverless architectures, e.g. running in AWS lambdas
@@ -78,7 +80,11 @@ Deploying cloud services using Terraform gives an opportunity to use different c
 
 #### Serverless.com framework
 Deploying APIs to AWS Lambda is easy with this proven framework, it just works
+</details>
 
+
+<details>
+  <summary>Tools/Services</summary>
 
 ## Tools
 
@@ -88,6 +94,19 @@ Managed build service of choice
 #### GitHub
 Everything is there including this document.
 
+#### Loggly and TrackJS
+For error tracking and logging
+
+#### Segment.io
+Analytics and tracking
+
+#### Pingdom
+Monitoring websites and api's
+
+#### Pager Duty
+Incident management tool
+
+</details>
 
 
 
