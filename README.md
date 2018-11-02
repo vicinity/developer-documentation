@@ -1,6 +1,103 @@
 # Developer Documentation
 
-### Agency Workflow
+## Recommended Technology Stack
+
+### Techniques
+
+* Infrastructure as code :thumbsup:
+Setting up a new environment or changing an infrastructure should be scripted and executed automatically by a build pipeline.
+
+* Serverless architecture :thumbsup:
+Serverless applications are easier to manage and scale so this should be the default approach when setting up a new service or a website.
+
+* Functional programming :thumbsup:
+It's easy to write testable code when no state is mutated
+
+* Object-oriented programming :ok:
+It's OK to use OOP just keep it SOLID!
+
+* Continuous Delivery (CD) :thumbsup:
+Deploy automatically to production after all automated tests pass.
+
+* Feature-toggles :thumbsup:
+Use feature-switches to enable new functionality in production for limited set of users. This is recommended for projects that are already in production and serving customers.
+
+* Release from master branch :thumbsup:
+Keep master branch up-to-date and ready to be deployed to production at any moment in time. In most case, we would have automatic deployment when code is merged to master.
+
+* Short Lived Feature branching :thumbsup:
+Keep branches short-lived and merge to master as soon as possible.
+
+* Rebase merging :thumbsup:
+Use rebase over merge to keep git history clean.
+
+* Consumer-driven contract testing :question:
+Using PACT or other forms of contract testing to keep RESTful services in sync.
+
+* UI Component Library :thumbsup:
+Shared UI components help us build consistent UI faster across various digital assets.
+
+NOTE: At the moment we only support vicinity theme. So for centre specific projects this is not valid.
+
+* Pull requests for code reviews :thumbsup:
+Useful to pick any issues, learn more, and share the knowledge using the power of GitHub
+
+
+## Platforms
+
+
+* AWS :thumbsup:
+AWS is our cloud platform of choice. Of course we should keep an eye on other platforms so the solutions we build should have business logiс decoupled from the infrastructure whenever possible.
+
+* Auth0 :thumbsup:
+Managed Identity Provider service
+
+
+## Languages and Frameworks
+
+
+* NodeJS :thumbsup:
+It's cool and fast enough plus works really well for serverless architectures, e.g. running in AWS lambdas
+
+* JavaScript as a first class language :thumbsup:
+Combined with static typing JavaScript allows rich full-stack programming experience
+
+* TypeScript :thumbsup:
+Superset of JavaScript adds types, intellisense, ES6 syntax and much more
+
+* React.js :thumbsup: :cool:
+Our default choice for UI
+
+* CssModules (PostCSS, CssNext) :thumbsup:
+Incapsulated CSS with variables
+
+* Storybook :thumbsup:
+Interactive UI component development / testing library
+
+* Styleguidist :question:
+Component development environment with hot reloaded dev server and a living style guide, competitor to Storybook
+
+* Terraform :thumbsup:
+Deploying cloud services using Terraform gives an opportunity to use different cloud providers.
+
+* serverless.com framework :thumbsup:
+Deploying APIs to AWS Lambda is easy with this proven framework, it just works
+
+
+## Tools
+
+
+* Buildkite :thumbsup:
+Managed build service of choice
+
+* GitHub :thumbsup:
+Everything is there including this document.
+
+---
+Legend: :thumbsup: preferred, :ok: accepted, :question: assess, :no_good: avoid
+
+
+## Agency Workflow
 
 This section lists down some steps are involved, when we work with Digital agencies here at Vicinity.
 
@@ -62,7 +159,7 @@ As we near completion, we would draft a plan together for production release. Th
 - Agree on SLA and Support team
 </details>
 
-### On-boarding new Digital Agencies
+## On-boarding new Digital Agencies
 
 This section serves as a guide to onboard a new external digital agency and to give them access to the services required to work on their projects.
 
