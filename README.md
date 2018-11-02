@@ -37,6 +37,7 @@ NOTE: At the moment we only support vicinity theme. So for centre specific proje
 
 #### Pull requests for code reviews
 Useful to pick any issues, learn more, and share the knowledge using the power of GitHub
+<br />
 </details>
 
 
@@ -48,6 +49,7 @@ AWS is our cloud platform of choice. Of course we should keep an eye on other pl
 
 #### Auth0
 Managed Identity Provider service
+<br />
 </details>
 
 
@@ -80,6 +82,7 @@ Deploying cloud services using Terraform gives an opportunity to use different c
 
 #### Serverless.com framework
 Deploying APIs to AWS Lambda is easy with this proven framework, it just works
+<br />
 </details>
 
 
@@ -103,7 +106,7 @@ Monitoring websites and api's
 
 #### Pager Duty
 Incident management tool
-
+<br />
 </details>
 
 
@@ -135,6 +138,7 @@ Depending on technical plan, Digital agency and Vicinity Digital team would unde
 - Jira board
 - Emails, subdomains
 - any other accounts needed to get started
+
 <br />
 </details>
 
@@ -151,6 +155,7 @@ This varies from project to project but in most cases, members of Vicinity Team 
 On day to day, we also expect all members to,
 - Actively document and Update high level design diagrams as and when needed
 - Capture technical debt details and prioritise them
+
 <br />
 </details>
 
@@ -158,6 +163,7 @@ On day to day, we also expect all members to,
   <summary>Security Review</summary>
 <br />  
 As we near completion of version 1 of the project, we will start looping in the security team here at Vicinity to kick start a security review of the product. During this review, security team will look into application vulnerabilities and suggest recommendation accordingly.
+
 <br />
 </details>
 
@@ -168,6 +174,7 @@ As we near completion, we would draft a plan together for production release. Th
 - Preparation of infra (using automation scripts + some manual work)
 - Sending out communication to stakeholders involved
 - Agreeing on SLA and Support team
+
 <br />
 </details>
 
@@ -190,6 +197,7 @@ Visit https://get.slack.help/hc/en-us/articles/115004151203-Create-shared-channe
   <summary>Project Management (Jira)</summary>
 <br />
 Within Vicinity, we have access to the Atlassian suite of software tools that can help manage projects. For all the projects, we try to maintain a Jira board so that all team members and stakeholders can be in the loop through out the project.
+
 <br />
 </details>
 
@@ -202,6 +210,7 @@ Create a new team under Vicinity’s Organisation for this project
 Allocate team members
 Create empty repositories for the project’s development.
 Generally, you will need to adjust the number of seats licensed in GitHub to cater for the expanded number of developers getting access to the organisation.
+
 <br />
 </details>
 
@@ -211,6 +220,7 @@ Generally, you will need to adjust the number of seats licensed in GitHub to cat
 If you project results in the requirement to distribute javascript based components, you may like to have access to Vicinity's private npmjs.com organisation account.
 
 contact DevOps group to gain access to this account.
+
 <br />
 </details>
 
@@ -221,7 +231,8 @@ If AWS accounts are required, you should establish them on project initiation. A
 
 This will most likely require at least two accounts to support a production environment and a separate account for all other environments, like staging.
 
-In order to create AWS accounts, a service request will need to be raised and there can be some lead time in getting this account established. It is strongly advised that this creation process is managed through Vicinity’s DevOps group (Avi Beetul)
+In order to create AWS accounts, a service request will need to be raised and there can be some lead time in getting this account established. It is strongly advised that this creation process is managed through Vicinity’s DevOps group
+
 <br />
 </details>
 
@@ -231,6 +242,7 @@ In order to create AWS accounts, a service request will need to be raised and th
 If the new project requires the development of software that relies on build systems, you will need to establish build pipelines in BuildKite. Contact DevOps group with your requirements so that Build pipelines that support your activities are created.
 
 You are welcomed to work with DevOps from Digital team to create these pipelines.
+
 <br />
 </details>
 
@@ -245,6 +257,7 @@ Pingdom (monitoring)
 TrackJS
 
 There are many services and we may have what you need. If not, we will create an account on the given service and establish a way so that you have access to the tool that you need.
+
 <br />
 </details>
 
@@ -252,5 +265,6 @@ There are many services and we may have what you need. If not, we will create an
   <summary>Office Work</summary>
 <br />
 You are allowed to work from the Vicinity office in Tower One at Chadstone and are able to work on your own laptop. WiFi access is available through the Vicinity Guest network and your project liaison will assist you in getting credentials to access the network. Your project liaison will also be able to grant you building access cards.
+
 <br />
 </details>
