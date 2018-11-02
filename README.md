@@ -279,3 +279,6 @@ You are allowed to work from the Vicinity office in Tower One at Chadstone and a
 
 <br />
 </details>
+
+## [Git Branching Strategy](/branching-strategy.md)
+
