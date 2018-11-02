@@ -110,12 +110,12 @@ Incident management tool
 
 ## Agency Workflow
 
-This section lists down some steps are involved, when we work with Digital agencies here at Vicinity.
+This section lists down steps involved when we work with Digital agencies here at Vicinity.
 
 <details>
   <summary>Technical Plan (Draft)</summary>
   
-Before any technical tasks are undertaken, we all discuss technical details of the project and draft out a rough technical plan. This technical plan will consist of following details,
+Before any technical tasks are undertaken, we all discuss technical details of the project and draft out a rough technical plan. This technical plan usually consist of following details,
 - Tech stack
 - Github Repo's, CI/CD
 - 3rd party services (loggly, trackjs, segment.io etc)
@@ -127,7 +127,7 @@ Before any technical tasks are undertaken, we all discuss technical details of t
 <details>
   <summary>Project Setup/Kick-off</summary>
   
-Depending on technical plan, Digital agency and Vicinity team would undertake tasks for project setup. Some of the things that Digital Team will likely be helping out with are,
+Depending on technical plan, Digital agency and Vicinity Digital team would undertake tasks for project setup. Some of the things that Digital Team will help setup are,
 - AWS account(s)
 - Github Repo(s) / Teams
 - Buildkite agent(s) etc
@@ -142,7 +142,7 @@ Depending on technical plan, Digital agency and Vicinity team would undertake ta
 <details>
   <summary>Day to Day Work</summary>
   
-This varies from project to project but in most cases members of Vicinity Data/Digital Team here at vicinity would be involved in following,
+This varies from project to project but in most cases, members of Vicinity Team will be involved in following,
 - Daily standups
 - System design, architecture and technical dicussions/concerns
 - Digital Team would actively helpout with DevOpsy stuff (automation, terraform etc)
@@ -157,7 +157,7 @@ On day to day, we also expect all members to,
 <details>
   <summary>Security Review</summary>
   
-As we near completion of version 1 of the project, we will start looping in the security team here at Vicinity to kick start a security review of the product. Depending on type of software we are building, this may include Penetration testing.
+As we near completion of version 1 of the project, we will start looping in the security team here at Vicinity to kick start a security review of the product. During this review, security team will look into application vulnerabilities and suggest recommendation accordingly.
 
 </details>
 
@@ -165,9 +165,9 @@ As we near completion of version 1 of the project, we will start looping in the 
   <summary>Productionizing</summary>
   
 As we near completion, we would draft a plan together for production release. This plan may include,
-- Prepare infra (using automation scripts + some manual work)
-- Send out communication to stakeholders involved
-- Agree on SLA and Support team
+- Preparation of infra (using automation scripts + some manual work)
+- Sending out communication to stakeholders involved
+- Agreeing on SLA and Support team
 </details>
 
 ## On-boarding new Digital Agencies
