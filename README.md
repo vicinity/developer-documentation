@@ -125,6 +125,8 @@ Before any technical tasks are undertaken, we all discuss technical details of t
 - Data/API requirements
 - High level architecture details
 <br />
+<br />
+
 </details>
 
 <details>
@@ -139,6 +141,7 @@ Depending on technical plan, Digital agency and Vicinity Digital team would unde
 - Emails, subdomains
 - any other accounts needed to get started
 
+<br />
 <br />
 </details>
 
@@ -164,6 +167,7 @@ On day to day, we also expect all members to,
 <br />  
 As we near completion of version 1 of the project, we will start looping in the security team here at Vicinity to kick start a security review of the product. During this review, security team will look into application vulnerabilities and suggest recommendation accordingly.
 
+<br />
 <br />
 </details>
 
@@ -197,12 +201,14 @@ Visit https://get.slack.help/hc/en-us/articles/115004151203-Create-shared-channe
   <summary>Project Management (Jira)</summary>
 <br />
 Within Vicinity, we have access to the Atlassian suite of software tools that can help manage projects. For all the projects, we try to maintain a Jira board so that all team members and stakeholders can be in the loop through out the project.
-
 <br />
+<br />
+
 </details>
 
 <details>
   <summary>GitHub</summary>
+
 <br />  
 If the project revolves around creating any digital system, you will most likely require repositories under Vicinity’s organisation in GitHub.
 You will need to contact Digital team at Vicinity to help you with that
@@ -210,8 +216,9 @@ Create a new team under Vicinity’s Organisation for this project
 Allocate team members
 Create empty repositories for the project’s development.
 Generally, you will need to adjust the number of seats licensed in GitHub to cater for the expanded number of developers getting access to the organisation.
-
 <br />
+<br />
+
 </details>
 
 <details>
