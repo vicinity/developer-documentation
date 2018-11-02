@@ -4,97 +4,91 @@
 
 ### Techniques
 
-* Infrastructure as code :thumbsup:
+#### Infrastructure as code
 Setting up a new environment or changing an infrastructure should be scripted and executed automatically by a build pipeline.
 
-* Serverless architecture :thumbsup:
+#### Serverless architecture
 Serverless applications are easier to manage and scale so this should be the default approach when setting up a new service or a website.
 
-* Functional programming :thumbsup:
-It's easy to write testable code when no state is mutated
-
-* Object-oriented programming :ok:
-It's OK to use OOP just keep it SOLID!
-
-* Continuous Delivery (CD) :thumbsup:
+#### Continuous Delivery (CD)
 Deploy automatically to production after all automated tests pass.
 
-* Feature-toggles :thumbsup:
+#### Feature-toggles
 Use feature-switches to enable new functionality in production for limited set of users. This is recommended for projects that are already in production and serving customers.
 
-* Release from master branch :thumbsup:
+####  Release from master branch
 Keep master branch up-to-date and ready to be deployed to production at any moment in time. In most case, we would have automatic deployment when code is merged to master.
 
-* Short Lived Feature branching :thumbsup:
+#### Short Lived Feature branching
 Keep branches short-lived and merge to master as soon as possible.
 
-* Rebase merging :thumbsup:
+#### Rebase merging
 Use rebase over merge to keep git history clean.
 
-* Consumer-driven contract testing :question:
-Using PACT or other forms of contract testing to keep RESTful services in sync.
+#### Consistent TS/ESlint across projects
+We are big on keeping code consistent across different projects and repo's. We maintain eslint and tslint configs on npm.
+https://www.npmjs.com/package/@vicinity/eslint-config-vcx
 
-* UI Component Library :thumbsup:
+
+#### UI Component Library
 Shared UI components help us build consistent UI faster across various digital assets.
 
 NOTE: At the moment we only support vicinity theme. So for centre specific projects this is not valid.
 
-* Pull requests for code reviews :thumbsup:
+#### Pull requests for code reviews
 Useful to pick any issues, learn more, and share the knowledge using the power of GitHub
 
 
-## Platforms
+### Platforms
 
 
-* AWS :thumbsup:
+#### AWS
 AWS is our cloud platform of choice. Of course we should keep an eye on other platforms so the solutions we build should have business logiс decoupled from the infrastructure whenever possible.
 
-* Auth0 :thumbsup:
+#### Auth0
 Managed Identity Provider service
 
 
-## Languages and Frameworks
+### Languages and Frameworks
 
 
-* NodeJS :thumbsup:
+#### NodeJS
 It's cool and fast enough plus works really well for serverless architectures, e.g. running in AWS lambdas
 
-* JavaScript as a first class language :thumbsup:
+#### JavaScript
 Combined with static typing JavaScript allows rich full-stack programming experience
 
-* TypeScript :thumbsup:
-Superset of JavaScript adds types, intellisense, ES6 syntax and much more
+#### TypeScript (Recommended)
+Superset of JavaScript adds types, intellisense, ES6 syntax and much more.
 
-* React.js :thumbsup: :cool:
+We maintain a TS config for consistency
+https://www.npmjs.com/package/@vicinity/vcx-tsconfig
+
+#### React.js
 Our default choice for UI
 
-* CssModules (PostCSS, CssNext) :thumbsup:
-Incapsulated CSS with variables
+#### TypeStyle or CssModules (PostCSS, CssNext)
+We are big fan of local css :)
 
-* Storybook :thumbsup:
+#### Storybook
 Interactive UI component development / testing library
 
-* Styleguidist :question:
-Component development environment with hot reloaded dev server and a living style guide, competitor to Storybook
-
-* Terraform :thumbsup:
+#### Terraform
 Deploying cloud services using Terraform gives an opportunity to use different cloud providers.
 
-* serverless.com framework :thumbsup:
+#### Serverless.com framework
 Deploying APIs to AWS Lambda is easy with this proven framework, it just works
 
 
 ## Tools
 
-
-* Buildkite :thumbsup:
+#### Buildkite
 Managed build service of choice
 
-* GitHub :thumbsup:
+#### GitHub
 Everything is there including this document.
 
----
-Legend: :thumbsup: preferred, :ok: accepted, :question: assess, :no_good: avoid
+
 
 
 ## Agency Workflow
