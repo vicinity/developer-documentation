@@ -110,11 +110,6 @@ Incident management tool
 </details>
 
 
-## Branching strategy
-
-
-
-
 ## Agency Workflow
 
 This section lists down steps involved when we work together with Digital agencies here at Vicinity.
