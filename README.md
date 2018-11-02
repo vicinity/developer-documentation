@@ -12,13 +12,13 @@ Setting up a new environment or changing an infrastructure should be scripted an
 Serverless applications are easier to manage and scale so this should be the default approach when setting up a new service or a website.
 
 #### Continuous Delivery (CD)
-Deploy automatically to production after all automated tests pass.
+Deploy automatically to staging after all automated tests pass. For production, in CD pipeline we have have a deploy button that triggers production deployment. We do this so that we can manually verify changes in staging if needed before production deployment.
 
 #### Feature-toggles
 Use feature-switches to enable new functionality in production for limited set of users. This is recommended for projects that are already in production and serving customers.
 
 ####  Release from master branch
-Keep master branch up-to-date and ready to be deployed to production at any moment in time. In most case, we would have automatic deployment when code is merged to master.
+Keep master branch up-to-date and ready to be deployed to production at any moment in time. In all case, we would have automatic deployment when code is merged to master.
 
 #### Short Lived Feature branching
 Keep branches short-lived and merge to master as soon as possible.
@@ -29,6 +29,9 @@ Use rebase over merge to keep git history clean.
 #### Consistent TS/ESlint across projects
 We are big on keeping code consistent across different projects and repo's. We maintain eslint and tslint configs on npm.
 https://www.npmjs.com/package/@vicinity/eslint-config-vcx
+
+#### Pre-commit Hooks (Lint, Test & Build Errors)
+We use pre-commit hooks to check code for linting errors, failing tests and compilations errors.
 
 #### UI Component Library
 Shared UI components help us build consistent UI faster across various digital assets.
@@ -59,17 +62,14 @@ Managed Identity Provider service
 #### NodeJS
 It's cool and fast enough plus works really well for serverless architectures, e.g. running in AWS lambdas
 
-#### JavaScript
-Combined with static typing JavaScript allows rich full-stack programming experience
-
-#### TypeScript (Recommended)
+#### TypeScript
 Superset of JavaScript adds types, intellisense, ES6 syntax and much more.
 
 We maintain a TS config for consistency
 https://www.npmjs.com/package/@vicinity/vcx-tsconfig
 
 #### React.js
-Our default choice for UI
+We recommend using [create-react-app](https://github.com/facebook/create-react-app) and [react-script-ts](https://www.npmjs.com/package/react-scripts-ts)
 
 #### TypeStyle or CssModules (PostCSS, CssNext)
 We are big fan of local css :)
