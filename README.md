@@ -1,6 +1,6 @@
 # Developer Documentation
 
-## Tech Recommendations
+## Technology Choices
 
 <details>
   <summary>Techniques</summary>
