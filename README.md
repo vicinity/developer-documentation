@@ -110,7 +110,7 @@ Incident management tool
 
 ## Agency Workflow
 
-This section lists down steps involved when we work with Digital agencies here at Vicinity.
+This section lists down steps involved when we work together with Digital agencies here at Vicinity.
 
 <details>
   <summary>Technical Plan (Draft)</summary>
